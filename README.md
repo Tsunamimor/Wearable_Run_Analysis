@@ -3,7 +3,7 @@
 
 ### Repository contents:
 
-    * /data folder containing the source material obtained from:                            https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+    * The raw source material used was obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
     * A script run_analysis.R which processes this data into a tidy data set.
     * A code book that contains details of the outputted tidy data set.
     * The tidy data set file TidyAvgData.txt
@@ -25,7 +25,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
    * 'test/y_test.txt': Test labels.  
 
 ### An R script called run_analysis.R is contained in the repository that does the following:
-   * Merges the training and the test sets to create one data set.
+   * Merges the original training and the test sets to create one data set.
    * Extracts only the measurements on the mean and standard deviation for each measurement.
    * Uses descriptive activity names to name the activities in the data set
    * Labels the data set with descriptive variable names.
