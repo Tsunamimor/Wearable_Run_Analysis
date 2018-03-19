@@ -1,0 +1,113 @@
+This dataset TidyAvgData.txt contains 180 records representing 30 users each carrying out 6 activities each with 68 variable vector described further below. 
+
+ 
+ For each record it is provided:
+======================================
+
+- Each record provides the average of each variable for each activity and each subject.
+- A 66-variable vector with time and frequency domain variables (averaged for each activity and each subject). 
+- Each of these variables have an activity label. 
+- For each of these variables there is also an identifier of the subject who carried out the experiment (range 1-30).
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- They contain subset of the original source measurements (see link below) including only the mean and standard deviation related measurements
+
+Original raw source source data:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 
+
+The features selected for this dataset come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Time_BodyAcc-XYZ and Time_GravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (Time_BodyAccJerk-XYZ and Time_BodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (Time_BodyAccMag, Time_GravityAccMag, Time_BodyAccJerkMag, Time_BodyGyroMag, Time_BodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing Frequency_BodyAcc-XYZ, Frequency_BodyAccJerk-XYZ, Frequency_BodyGyro-XYZ, Frequency_BodyAccJerkMag, Frequency_BodyGyroMag, Frequency_BodyGyroJerkMag. 
+
+
+- %BodyAcc%: The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+- %GravityAcc%: Gravity acceleration signal
+- %BodyAccJerk%: The body linear acceleration jerk signals
+- %BodyGyro%: The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+- %BodyGyroJerk%: The angular velocity jerk signals
+- %BodyAccMag%: The body acceleration magnitude
+- %GravityAccMag%: Gravity acceleration magnitude
+- %BodyAccJerkMag%: The body linear acceleration jerk signal magnitude
+- %BodyGyroMag%: The angular velocity magnitude
+- %BodyGyroJerkMag%: The angular velocity  jerk signal magnitude
+
+The acceleration signal from the smartphone accelerometer is measured in standard gravity units 'g'
+
+Variables:
+ - UserNumberID: Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+ - activity: 6 types of activity were recorded:
+	- WALKING
+	- WALKING_UPSTAIRS
+	- WALKING_DOWNSTAIRS
+	- SITTING
+	- STANDING
+	- LAYING
+ - Time_BodyAcc_Mean-X
+ - Time_BodyAcc_Mean-Y
+ - Time_BodyAcc_Mean-Z
+ - Time_BodyAcc_StandardDev-X
+ - Time_BodyAcc_StandardDev-Y
+ - Time_BodyAcc_StandardDev-Z
+ - Time_GravityAcc_Mean-X
+ - Time_GravityAcc_Mean-Y
+ - Time_GravityAcc_Mean-Z
+ - Time_GravityAcc_StandardDev-X
+ - Time_GravityAcc_StandardDev-Y
+ - Time_GravityAcc_StandardDev-Z
+ - Time_BodyAccJerk_Mean-X
+ - Time_BodyAccJerk_Mean-Y
+ - Time_BodyAccJerk_Mean-Z
+ - Time_BodyAccJerk_StandardDev-X
+ - Time_BodyAccJerk_StandardDev-Y
+ - Time_BodyAccJerk_StandardDev-Z
+ - Time_BodyGyro_Mean-X
+ - Time_BodyGyro_Mean-Y
+ - Time_BodyGyro_Mean-Z
+ - Time_BodyGyro_StandardDev-X
+ - Time_BodyGyro_StandardDev-Y
+ - Time_BodyGyro_StandardDev-Z
+ - Time_BodyGyroJerk_Mean-X
+ - Time_BodyGyroJerk_Mean-Y
+ - Time_BodyGyroJerk_Mean-Z
+ - Time_BodyGyroJerk_StandardDev-X
+ - Time_BodyGyroJerk_StandardDev-Y
+ - Time_BodyGyroJerk_StandardDev-Z
+ - Time_BodyAccMag_Mean
+ - Time_BodyAccMag_StandardDev
+ - Time_GravityAccMag_Mean
+ - Time_GravityAccMag_StandardDev
+ - Time_BodyAccJerkMag_Mean
+ - Time_BodyAccJerkMag_StandardDev
+ - Time_BodyGyroMag_Mean
+ - Time_BodyGyroMag_StandardDev
+ - Time_BodyGyroJerkMag_Mean
+ - Time_BodyGyroJerkMag_StandardDev
+ - Frequency_BodyAcc_Mean-X
+ - Frequency_BodyAcc_Mean-Y
+ - Frequency_BodyAcc_Mean-Z
+ - Frequency_BodyAcc_StandardDev-X
+ - Frequency_BodyAcc_StandardDev-Y
+ - Frequency_BodyAcc_StandardDev-Z
+ - Frequency_BodyAccJerk_Mean-X
+ - Frequency_BodyAccJerk_Mean-Y
+ - Frequency_BodyAccJerk_Mean-Z
+ - Frequency_BodyAccJerk_StandardDev-X
+ - Frequency_BodyAccJerk_StandardDev-Y
+ - Frequency_BodyAccJerk_StandardDev-Z
+ - Frequency_BodyGyro_Mean-X
+ - Frequency_BodyGyro_Mean-Y
+ - Frequency_BodyGyro_Mean-Z
+ - Frequency_BodyGyro_StandardDev-X
+ - Frequency_BodyGyro_StandardDev-Y
+ - Frequency_BodyGyro_StandardDev-Z
+ - Frequency_BodyAccMag_Mean
+ - Frequency_BodyAccMag_StandardDev
+ - Frequency_BodyBodyAccJerkMag_Mean
+ - Frequency_BodyBodyAccJerkMag_StandardDev
+ - Frequency_BodyBodyGyroMag_Mean
+ - Frequency_BodyBodyGyroMag_StandardDev
+ - Frequency_BodyBodyGyroJerkMag_Mean
+ - Frequency_BodyBodyGyroJerkMag_StandardDev
